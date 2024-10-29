@@ -1,7 +1,9 @@
-import Image from "next/image";
+import F1ChampionsCard from "./f1/f1Card";
 
 export default function Home() {
   return (
-   <div></div>
+   <div>
+    <F1ChampionsCard/>
+   </div>
   );
 }
